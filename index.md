@@ -1,21 +1,18 @@
-YumeMichi's Wiki
+大师兄的博客
 ================
 
 Welcome
 ------
-Welcome to my mdwiki-demo page, I am YumeMichi, an Anime and Music lover!
+  爱上markdown，爱上写作
 
 Demo
 -------
-  - [demo1](demo1.md)
-  - [demo2](demo2.md)
-  - [demo3](demo3.md)
-  - [demo4](demo4.md)
-  - [demo5](demo5.md)
-  - [demo6](demo6.md)
+  - [ceilometer-agent-computer](ceilometer-agent-computer.md)
+
+  - [nfs启动失败的处理](nfs启动失败的处理.md)
+
 
 Links
 -----
  - [MDwiki](http://dynalon.github.io/mdwiki/)
  - [CommonMark Spec](http://jgm.github.io/stmd/spec.html)
- - [My Blog](https://blog.ikke.moe)
