@@ -4,6 +4,7 @@
 Welcome
 ------
   爱上markdown，爱上写作
+  码字难于码代码
 
 Demo
 -------

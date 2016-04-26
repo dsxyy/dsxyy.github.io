@@ -36,6 +36,7 @@ cpu = ceilometer.compute.pollsters.cpu:CPUPollster
     
 ## 初始化操作
 服务的初始化操作主要实现了以下内容的操作：
+
 - 先根据指定参数获取agent的命名空间**ceilometer.poll.compute**，然后获取与``ceilometer.poll.compute``相匹配的所有插件，并加载；``ceilometer.poll.compute``所指定的插件描述了如何获取收集所监控的虚拟机实例相关的监控采样数据；
 - 根据指定参数获取命名空间**ceilometer.discover**，获取与`ceilometer.discover`相匹配的所有插件，并加载；`ceilometer.discover`所指定的插件描述了如何发现主机上的监控的虚拟机:
 ```
@@ -86,6 +87,7 @@ class AgentManager(os_service.Service):
 
 ## 启动操作
 ceilometer-agent-central的启动操作实现以下任务：
+
 - 遍历配置文件pipeline.yaml，获取每个监控项的采样配置、数据的加工方式以及数据的发布方式；
 - 以采集周期为key创建定时任务列表，并将待采集任务添加到对应采集周期的定时任务列表中。例如创建600s的定时任务，并将“采集CPU指标并上报原始数据”和“采集CPU指标并上报加工后数据”都加入了600s的任务列表里。
 注意：因pipeline.yaml里的meter_source项的默认配置是"\*"，故entry_points.txt里定义的所有采集指标都会有对应一个**采集并上报原始数据**任务并加入600s的任务列表里。如果不想上报原始数据，则配置项应改为：`"!*"`
