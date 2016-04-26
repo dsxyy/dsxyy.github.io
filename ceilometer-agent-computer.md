@@ -2,6 +2,8 @@
 
 　　Ceilometer Compute Agent服务组件主要用来收集计算节点上的虚拟机实例的监控数据，在每一个计算节点上都要运行这个服务组件。该agent通过Stevedore（[Python深入：stevedore简介](http://www.voidcn.com/blog/gqtcgq/article/p-4846113.html)）管理了一组pollster插件，分别用来获取计算节点上虚拟机的CPU、Memory、Disk IO、Network IO、Instance这些信息，这些信息大部分是通过调用Hypervisor的API来获取的，需要定期Poll轮询收集信息。
 
+![代码运行流程](hcn.png)
+
 [toc]
 
 ## 注册插件
