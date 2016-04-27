@@ -3,8 +3,5 @@
 systemctl restart rpcbind.service 
 systemctl restart nfs
 ```
-Links
------
- - [My blog](./)
 
 

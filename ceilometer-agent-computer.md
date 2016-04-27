@@ -204,7 +204,5 @@ class AgentManager(os_service.Service):
 
 [一個meter的旅行](http://www.xlgps.com/article/20358.html)
 
-Links
------
- - [My blog](./)
+
 
