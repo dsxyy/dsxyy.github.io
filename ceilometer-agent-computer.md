@@ -203,3 +203,8 @@ class AgentManager(os_service.Service):
 [openstack监控扩展](http://www.cnblogs.com/yippee/p/4645469.html)
 
 [一個meter的旅行](http://www.xlgps.com/article/20358.html)
+
+Links
+-----
+ - [My blog](./)
+

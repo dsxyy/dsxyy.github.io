@@ -29,3 +29,7 @@ Python 列表乘运算的一个陷阱
 参考：
 [Python 列表乘运算的一个陷阱](http://m.l2d.xyz/p/2015/09/python-list-multiplication-pitfall/)
 [python列表赋值的问题？](https://www.zhihu.com/question/21213302)
+
+Links
+-----
+ - [My blog](./)
