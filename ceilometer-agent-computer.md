@@ -7,7 +7,7 @@
 [toc]
 
 ## 注册插件
-　　Pollster插件就是指各项采集指标的具体python实现文件，开发者每完成一个采集指标的插件实现，都需要在入口文件entry_points.txt找到命名空间” ceilometer.poll.compute”并注册，Agent借助Stevedore会将所有插件在启动时加载。
+　　Pollster插件就是指各项采集指标的具体python实现文件，开发者每完成一个采集指标的插件实现，都需要在入口文件entry_points.txt找到命名空间`ceilometer.poll.compute`并注册，Agent借助Stevedore会将所有插件在启动时加载。
 /usr/lib/python2.7/site-packages/ceilometer-2015.1.0-py2.7.egg-info/entry_points.txt
 ```
 [ceilometer.poll.compute]

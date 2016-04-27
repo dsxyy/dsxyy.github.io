@@ -3,14 +3,15 @@
 
 Welcome
 ------
-  爱上markdown，爱上写作
-  码字难于码代码
+  码字比码代码难多了
 
 Demo
 -------
   - [ceilometer-agent-computer](ceilometer-agent-computer.md)
 
   - [nfs启动失败的处理](nfs启动失败的处理.md)
+  - [Python 列表乘运算的一个陷阱](Python 列表乘运算的一个陷阱.md)
+  - [Git点滴](Git点滴.md)
 
 
 Links
