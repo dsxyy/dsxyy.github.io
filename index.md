@@ -13,6 +13,7 @@ Demo
   - [Python列表乘运算的一个陷阱](Python列表乘运算的一个陷阱.md)
 
   - [Git点滴](Git点滴.md)
+  - [Linux技巧](Linux.md)
 
 
 Links
