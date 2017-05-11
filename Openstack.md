@@ -6,3 +6,5 @@ Openstack收集
   - [logstash indexer](openstack logstash indexer.conf)
 
   - [logstash shipper](openstack logstash shipper.conf)
+
+  - [openstack环境故障总结](openstack/openstack环境故障总结.md)
