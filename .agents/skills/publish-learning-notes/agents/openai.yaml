@@ -1,0 +1,4 @@
+interface:
+  display_name: "学习笔记整理与发布"
+  short_description: "将学习内容整理成草稿，经明确审核后安全发布到个人博客"
+  default_prompt: "Use $publish-learning-notes to turn this learning session into a reviewable blog draft."
