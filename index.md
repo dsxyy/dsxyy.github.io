@@ -7,6 +7,8 @@ Welcome
 
 Demo
 -------
+  - [DSpark 与 DeepSpec：从投机解码原理到 vLLM 实测](dspark-deepspec-vllm.md)
+
   - [ceilometer-agent-computer](ceilometer-agent-computer.md)
 
   - [nfs启动失败的处理](nfs启动失败的处理.md)
